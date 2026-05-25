@@ -1,0 +1,42 @@
+{
+  "name": "บัญชีรายวัน",
+  "short_name": "บัญชีรายวัน",
+  "description": "แอพบันทึกรายรับ-รายจ่ายส่วนตัว",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1f2e",
+  "theme_color": "#1a1f2e",
+  "orientation": "portrait",
+  "lang": "th",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "บันทึกรายจ่าย",
+      "short_name": "รายจ่าย",
+      "description": "เพิ่มรายจ่ายด่วน",
+      "url": "./index.html?quick=expense",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "บันทึกรายรับ",
+      "short_name": "รายรับ",
+      "description": "เพิ่มรายรับด่วน",
+      "url": "./index.html?quick=income",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["finance", "productivity"]
+}
